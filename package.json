@@ -1,7 +1,7 @@
 {
   "name": "hotelfinda",
   "version": "0.1.0",
-   "homepage": "https://vusaar.github.io/hotelfinda",
+   "homepage": "https://vusaar.github.io/hotelfinda/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
