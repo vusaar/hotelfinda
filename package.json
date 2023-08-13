@@ -1,6 +1,7 @@
 {
-  "name": "hotelfinder",
+  "name": "hotelfinda",
   "version": "0.1.0",
+   "homepage": "https://vusaar.github.io/hotelfinda",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -20,6 +21,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -58,6 +61,7 @@
     "@storybook/testing-library": "^0.2.0",
     "babel-plugin-named-exports-order": "^0.0.2",
     "eslint-plugin-storybook": "^0.6.13",
+    "gh-pages": "^6.0.0",
     "prop-types": "^15.8.1",
     "storybook": "^7.1.0",
     "webpack": "^5.88.2"
