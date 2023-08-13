@@ -24,14 +24,14 @@ const SearchResultsComponent=(props)=>{
 
     return(
 
-    <Grid container direction="row" spacing={2}  sx={{width:'90%',ml:'5%', pt:1}}>
+    <Grid container direction="row" spacing={2}  sx={{width:'95%',ml:'5%', pt:1}}>
     {console.log('new hotels-->')}
     {console.log(props.hotels)}
 
     {
     <>
        {hotels.map(hotel=>(
-            <Grid item xs={12} md={6} lg={4}>
+            <Grid item xs={12} sm={6} md={6} lg={4}>
               <Link to='/hotel'  state={{hotel:hotel}}>
                  <HotelComponent hotel={hotel} key={hotel.hotelId}/>
               </Link>

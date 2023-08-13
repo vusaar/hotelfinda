@@ -74,16 +74,16 @@ const HotelComponent =(props)=>{
 
          <>
     {!props.detail?(     
-    <Card sx={{ width: 345,height:300,m:'1px' }}>
+    <Card sx={{ width: '85%',height:'40vh',m:'1px' }}>
 
     {hotel_data.images[0]?
       (<CardMedia
         component="img"
         alt="hotel image"
-        height="160"
+        height="180vh"
         image={hotel_data?.images[0]['image']['url']}
       />):(
-        <Skeleton variant="rectangular" width={345} height={160} />
+        <Skeleton variant="rectangular" width={'100%'} height={160} />
       )
 
      }

@@ -1,15 +1,22 @@
 import React from "react";
 import logo from '../logo.svg';
-import Box from '@mui/material/Box';
+import {Box,Grid} from '@mui/material/';
 
 
 const HeaderComponent=()=>{
 
    return (
-    <Box sx={{ mt: 5,justifyContent: 'center'}}>
-      <img src={logo} width={180} />
+    <Grid container sx={{ mt:2}} >
+
+      <Grid item xs={12} md={12}>
+         
+       <Box sx={{width:'100%'}}>
+       <img src={logo} width={'120vw'} />
+      </Box>  
       
-      </Box>
+      </Grid>
+      
+      </Grid>
    );
 
 }

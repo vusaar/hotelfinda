@@ -66,7 +66,7 @@ const SearchComponent=(props)=>{
     return (
         
           <Paper 
-          sx={{ p: '1px 20px', display: 'flex', alignItems: 'center', width:{sm:'93%',md:'65%'},height:65 }}>
+          sx={{ p: '1px 10px', display: 'flex', alignItems: 'center', width:{xs:'94%',sm:'94%',md:'65%'},height:'8vh' }}>
             
             <>
               <InputBase sx={{ width: '100%'}} id="standard-basic" label="Search..." variant="standard" onChange={handleInputChange} value={searchQuery}/>
