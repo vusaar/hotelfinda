@@ -10,10 +10,11 @@ const HeaderComponent=()=>{
 
       <Grid item xs={12} md={12}>
          
-       <Box sx={{width:'100%'}}>
-       <img src={logo} width={'120vw'} />
+       <Box sx={{width:'100%',ml:'-15px'}}>
+       <img src={logo} width={'95vw'} />
       </Box>  
       
+
       </Grid>
       
       </Grid>
